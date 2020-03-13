@@ -23,5 +23,9 @@
 
 この一冊を軸にSQLを覚えていく。適当な問題をピックアップします。
 - [「スッキリわかるSQL入門 第2版 ドリル222問付き!」](https://amzn.to/2Su2ysV)
+
 複数の本で同時に学習したほうが良いので他の教材も紹介します。こちらは補習教材。
 - [「改訂第3版 すらすらと手が動くようになる SQL書き方ドリル」](https://amzn.to/2USAdOm)
+
+<img width=300 src="https://user-images.githubusercontent.com/7414320/76589453-7ccd8980-652d-11ea-8f2a-44f49893e085.png"><img width=300 src="https://user-images.githubusercontent.com/7414320/76589462-848d2e00-652d-11ea-9dcb-8230746f2386.png">
+
