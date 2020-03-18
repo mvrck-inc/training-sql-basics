@@ -20,6 +20,7 @@ CREATE TABLE prefectures (
   `name`    VARCHAR(10) NOT NULL, -- 都道府県名
   `capital` VARCHAR(10),          -- 県庁所在地
   `area`    INT                   -- 面積
+  PRIMARY KEY(`code`)             -- プライマリーキー
 ) CHARACTER SET utf8mb4;          -- MySQL 5.7だと、utf8mb4でないと日本語を正しく扱ってくれません
 ```
 
