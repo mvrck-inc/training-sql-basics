@@ -6,6 +6,7 @@ PlayGround, REPL, IDEで素早くScalaソースコードを書き実行できる
 
 以下の課題の結果をこのファイルに貼り付けて、Pull Requestを送る形で提出してください
 
+---
 1. オンラインの[Playground](https://www.db-fiddle.com/)で以下のSQLを実行し、結果を貼り付けて下さい。
 
 ```sql
@@ -27,6 +28,7 @@ SELECT * FROM first_table;
 ![image](https://user-images.githubusercontent.com/7414320/76934997-9c045680-6933-11ea-8a3b-d50d787db129.png)
 
 
+---
 2. 自分のローカルPCにMySQL 5.7をインストールして下さい。
 
 結構面倒ですね。まず、自分のMacBookにhomebrewが入っていなかったら https://brew.sh/ からインストールして下さい。
@@ -57,6 +59,7 @@ password:
 
 ↑二行目でパスワードを聞かれていますが、何も設定せず立ち上げたので、そのままEnterを押せばコマンドラインからログインできるはずです。(もしかするとパスワードが`root`になっているかもしれません)
 
+---
 3. 自分のローカルPCにMySQL WorkBenchをインストールして下さい。
 
 - リンクはこちら https://www.mysql.com/products/workbench/
@@ -66,6 +69,7 @@ password:
 
 `Host: 127.0.0.1, Port:3306, user=root, password=` (もしかするとパスワードが`root`になっているかもしれません)
 
+---
 4. MySQL WorkBenchから以下のSQLを実行して、結果を貼り付けて下さい。
 
 ```sql
