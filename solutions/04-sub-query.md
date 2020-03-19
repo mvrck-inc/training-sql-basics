@@ -8,6 +8,8 @@
 
 1. 「スッキリわかるSQL入門 第2版」p.230 問題7-2の実行結果を貼り付けて下さい
 
+解答)
+
 料金テーブル(prices)とレンタルテーブル(rental_cars)をCREATEするSQL(DDL)はこちらです。
 PlayGroundであるDB Fiddleは外部キー(`FOREIGN KEY`)に対応していないので、ローカルでは知らせているMySQLでテーブルを作成すると良いでしょう。
 
@@ -45,8 +47,11 @@ INSERT INTO rental_cars (rental_id, car_code, duration) VALUES ('1510', 'E01', 1
 
 答えのSQLクエリは書籍に載っているので省略します。提出の際は必ず自分で実行した結果を貼り付けてください。
 
+---
+
 2. 「スッキリわかるSQL入門 第2版」p.231 問題7-3のSQL文および実行結果を貼り付けて下さい
 
+解答)
 個体識別テーブル(cows)と頭数集計テーブル(stats)をCREATEするSQL(DDL)はこちらです。
 PlayGroundであるDB Fiddleは外部キー(`FOREIGN KEY`)に対応していないので、ローカルでは知らせているMySQLでテーブルを作成すると良いでしょう。
 
