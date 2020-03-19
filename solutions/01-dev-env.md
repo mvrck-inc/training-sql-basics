@@ -23,7 +23,7 @@ INSERT INTO first_table (name, age) VALUES ("Richard Imaoka", 18);
 SELECT * FROM first_table;
 ```
 
-以下のようになります。左側と右側に画面が別れていて、左側にDDL/DML (= CREATE TABLE, INSERT INTO)、右側にクエリ(SELECT)を入れることに注意して下さい。
+解答) 以下のようになります。左側と右側に画面が別れていて、左側にDDL/DML (= CREATE TABLE, INSERT INTO)、右側にクエリ(SELECT)を入れることに注意して下さい。
 
 ![image](https://user-images.githubusercontent.com/7414320/76934997-9c045680-6933-11ea-8a3b-d50d787db129.png)
 
@@ -31,7 +31,7 @@ SELECT * FROM first_table;
 ---
 2. 自分のローカルPCにMySQL 5.7をインストールして下さい。
 
-結構面倒ですね。まず、自分のMacBookにhomebrewが入っていなかったら https://brew.sh/ からインストールして下さい。
+解答) 結構面倒ですね。まず、自分のMacBookにhomebrewが入っていなかったら https://brew.sh/ からインストールして下さい。
 MacBookを前提に説明するので、Windows機やLinux機を使う場合別途相談して下さい。
 
 `brew install mysql@5.7`でMySQL 5.7がインストールできます。最新バージョンは8.0.xなのですが、Amazon側の制約などもあり、5.7をインストールすることにします。
@@ -39,7 +39,7 @@ MacBookを前提に説明するので、Windows機やLinux機を使う場合別�
 https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html
 > All 1.x Aurora MySQL engine versions are wire-compatible with Community MySQL 5.6.10a. All 2.x Aurora MySQL engine versions are wire-compatible with Community MySQL 5.7.12.
 
-brew installではMySQLのコマンドラインクライアントと、DBサーバーの両方がインストールされるので確認します。
+brew installではMySQLのコマンドライン・クライアントと、DBサーバーの両方がインストールされるので確認します。
 
 ```
 > which mysql
@@ -62,6 +62,7 @@ password:
 ---
 3. 自分のローカルPCにMySQL WorkBenchをインストールして下さい。
 
+解答) 
 - リンクはこちら https://www.mysql.com/products/workbench/
 - MySQL WorkBench以外にもMacbookなら https://www.sequelpro.com/ がおすすめです
 
@@ -87,3 +88,5 @@ INSERT INTO first_table (name, age) VALUES ("Richard Imaoka", 18);
 
 SELECT * FROM first_table;
 ```
+
+解答) SQLは上に載っているので省略します。提出の際は必ず自分で実行した結果を貼り付けてください。課題3.でSequel Proを選んだ人はそちらでもよいです。
